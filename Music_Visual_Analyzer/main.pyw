@@ -6,7 +6,7 @@ def rnd_color():
     h, s, l = random.random(), 0.5 + random.random() / 2.0, 0.4 + random.random() / 5.0
     return [int(256 * i) for i in colorsys.hls_to_rgb(h, l, s)]
 
-foldername = "C:/Users/natha/Documents/Main/Programming/Wacky projects/Music_Visual_Analyzer/Music/Armin van Buuren - This Is A Test (Extended Mix).mp3"
+foldername = "Music/y2mate.is - Star Wars The Force Awakens Trailer Music-7zciCXEcXog-192k-1698080019.mp3"
 
 analyzer = AudioAnalyzer()
 analyzer.load(foldername)
