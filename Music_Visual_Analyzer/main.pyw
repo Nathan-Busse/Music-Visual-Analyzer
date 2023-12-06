@@ -6,7 +6,7 @@ def rnd_color():
     h, s, l = random.random(), 0.5 + random.random() / 2.0, 0.4 + random.random() / 5.0
     return [int(256 * i) for i in colorsys.hls_to_rgb(h, l, s)]
 
-foldername = "Music/y2mate.is - Star Wars The Force Awakens Trailer Music-7zciCXEcXog-192k-1698080019.mp3"
+foldername = "Music/[YT2mp3.info] - Armin van Buuren - This Is A Test (Extended Mix) (320kbps).mp3"
 
 analyzer = AudioAnalyzer()
 analyzer.load(foldername)
@@ -52,9 +52,9 @@ radius_vel = 0
 
 
 bass = {"start": 50, "stop": 100, "count": 12}
-heavy_area = {"start": 120, "stop": 250, "count": 40}
-low_mids = {"start": 251, "stop": 2000, "count": 50}
-high_mids = {"start": 2001, "stop": 6000, "count": 20}
+heavy_area = {"start": 120, "stop": 250, "count": 400}
+low_mids = {"start": 251, "stop": 2000, "count": 500}
+high_mids = {"start": 2001, "stop": 6000, "count": 200}
 
 freq_groups = [bass, heavy_area, low_mids, high_mids]
 

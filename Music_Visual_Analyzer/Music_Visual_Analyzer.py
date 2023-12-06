@@ -37,7 +37,7 @@ def bin_search(arr, target):
         index = int((min_index + max_index) / 2)
 
 def rotate(xy, theta):
-    # https://en.wikipedia.org/wiki/Rotation_matrix#In_two_dimensions
+   
     cos_theta, sin_theta = math.cos(theta), math.sin(theta)
 
     return (
